@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './calendarTitle.module.css'
-import moment from "moment";
 
 const CalendarTitle = () => {
 

@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import s from "./calendar.module.css";
 import ModalWindow from "../modalWindow/modalWindow";
-import moment from "moment";
 
 const Cell = ({daysArray, isCurrentDay, isCurrentMonth}) => {
 
@@ -12,8 +11,6 @@ const Cell = ({daysArray, isCurrentDay, isCurrentMonth}) => {
     const closeModal = () => {
         setModalActive(false)
     }
-    console.log(daysArray)
-
 
     return (
         <div className={s.gridContainer}>

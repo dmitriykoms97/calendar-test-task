@@ -1,6 +1,5 @@
 import React from 'react';
 import s from './modalWindow.module.css'
-import moment from "moment";
 
 const ModalWindow = ({closeModal, chosenDay, chosenMonth}) => {
 
