@@ -1,0 +1,21 @@
+.container {
+    background: #ffffff;
+    width: 1336px;
+    height: 908px;
+    color: #3D3D3D;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+
+.description {
+    font-weight: 300;
+    font-size: 20px;
+}

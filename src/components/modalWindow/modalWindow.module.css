@@ -1,0 +1,62 @@
+.modalContainer {
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.22);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    width: 510px;
+    height: 140px;
+    background: #FBFBFB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.inputFields {
+    width: 220px;
+    height: 30px;
+    outline: none;
+    border: 2px solid #FDD000;
+    padding: 5px;
+    color: #3D3D3D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    color: #A2A2A2;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background: #FDD000;
+    border: none;
+    font-size: 20px;
+    color: #3D3D3D;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.closeBtn:hover {
+    border: 1px solid #3D3D3D;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.gridContainer {
+    color: #DFDFDF;
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    /*grid-template-rows: repeat(5, 60px);*/
+}
+
+.cellContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    cursor: pointer;
+}
+.cellContainer:hover {
+    transform: scale(1.4);
+    transition: .2s linear;
+}
+.activeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: #FDD000;
+    color: #3d3d3d;
+}
+
+.footerContainer {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 60px);
+    color: #DFDFDF;
+    border-top: 1px solid #DFDFDF;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.dayOfWeek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cellNotCurrentMonth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    cursor: pointer;
+    color: rgba(223, 223, 223, 0.24);
+}
